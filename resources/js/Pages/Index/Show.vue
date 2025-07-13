@@ -1,11 +1,8 @@
 <template>
-    <h3>wollll</h3>
-    {{ message }}
+    <h3>SHOwvvvvv</h3>
 </template>
 
 <script setup>
-const props = defineProps(['message'])
-
 
 </script>
 
