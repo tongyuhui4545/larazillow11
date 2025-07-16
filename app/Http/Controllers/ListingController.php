@@ -34,7 +34,7 @@ class ListingController extends Controller
         //
         Listing::create($request->all());
 
-        return redirect()->route('listing.index');
+        return redirect()->route('listing.index')->with('success', 'Listing created successfully');
     }
 
     /**
